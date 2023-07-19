@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5ffca1;
+    box-shadow: 0 5px 5px #70bb90;
+
+}
+.nav-inicio {
+    padding: 1%;
+    margin: auto;
+}
+
+
+
+a:hover {
+    background-color: #6df06d;
+    color: rgb(243, 194, 102);
+    padding: 10px;
+}
+
+a:active {
+    background-color: rgb(7, 95, 92);
+    color: black;
+}
+
+ul {
+    font-family: cursive;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+
+
+}
+
+a {
+    margin: 15px;
+    color: #080808;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+
+h1 {
+    color: #eef3f3;
+    padding: 2%;
+    text-decoration: overline;
+    font-size: 45px;
+
+}
+
+header img {
+    width: 250px;
+}
+.foto-principal {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}

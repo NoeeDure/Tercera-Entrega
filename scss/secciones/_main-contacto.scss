@@ -1,0 +1,27 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    --bs-accordion-active-color: #fff;
+    --bs-accordion-active-bg: #c4e8c2;
+    width: 500px;
+    margin: auto;
+}
+
+.info-cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 13px;
+}
+
+.ofertas {
+    background-color: #6bbd99;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: cursive;
+    font-size: 12px;
+}

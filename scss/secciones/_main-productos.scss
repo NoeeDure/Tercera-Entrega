@@ -1,0 +1,15 @@
+.grilla-productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+}
+
+.grilla-productos div {
+    background-color: #c4e8c2;
+    border: 1px #6bbd99 solid;
+}
+
+.grilla-productos img {
+    padding: 5%;
+    width: 300px;
+}

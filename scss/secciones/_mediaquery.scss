@@ -1,0 +1,100 @@
+
+
+/* Mwdia Query: INICIO */
+@media (max-width: 900px) {
+    header img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 25px;
+        color: #080808;
+    }
+
+    a {
+        display: flex;
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .foto-principal {
+        width: 375px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+
+    }
+}
+
+/* Media Query: CONOCENOS */
+@media (max-width: 900px) {
+    .grilla-conocenos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .ancho-modificado {
+        width: 300px;
+        margin: 10%;
+
+    }
+
+    .p-conoceno {
+        font-size: 12px;
+    }
+}
+
+/* Media Query: LOCALES */
+@media (max-width: 900px) {
+    .local1 {
+        width: 280px;
+        margin: 15px;
+
+    }
+
+    .local2 {
+        width: 280px;
+        margin: 15px;
+    }
+
+    .local3 {
+        width: 280px;
+        margin: 15px;
+    }
+
+    .locales p {
+        display: flex;
+        font-size: 12px;
+        /* background-color: #9fd8ac; */
+        padding: 0%;
+        margin: auto;
+
+    }
+}
+
+/* Media Query: NUESTROS PRODUCTOS  */
+@media (max-width: 900px) {
+    .grilla-productos {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .grilla-productos img {
+        padding: 15%;
+        width: 250px;
+
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* Media Query: CONTACTOS */
+@media (max-width: 900px) {
+    .accordion {
+        width: 300px;
+        margin: auto;
+    }
+}

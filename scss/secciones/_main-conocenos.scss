@@ -1,0 +1,24 @@
+
+.grilla-conocenos {
+    background-color: #e1f3e0;
+    border: 2px #6bbd99 solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.p-conocenos {
+    margin: 15px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+    filter: invert(108%);
+}
+
+.ancho-modificado {
+    justify-content: center;
+    width: 600px;
+    margin: 1%;
+    /* padding: 2%; */
+}

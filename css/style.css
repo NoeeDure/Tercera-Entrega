@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 5%;
+  text-align: center; }
+
+.img-logo {
+  width: 80px;
+  background-color: #5ffca1;
+  padding: 0%; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5ffca1;
+  box-shadow: 0 5px 5px #70bb90; }
+
+.nav-inicio {
+  padding: 1%;
+  margin: auto; }
+
+a:hover {
+  background-color: #6df06d;
+  color: #f3c266;
+  padding: 10px; }
+
+a:active {
+  background-color: #075f5c;
+  color: black; }
+
+ul {
+  font-family: cursive;
+  font-size: 18px;
+  list-style-type: none;
+  display: flex; }
+
+a {
+  margin: 15px;
+  color: #080808;
+  text-decoration: none;
+  font-family: cursive; }
+
+h1 {
+  color: #eef3f3;
+  padding: 2%;
+  text-decoration: overline;
+  font-size: 45px; }
+
+header img {
+  width: 250px; }
+
+.foto-principal {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  margin: auto; }
+
+.grilla-conocenos {
+  background-color: #e1f3e0;
+  border: 2px #6bbd99 solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.p-conocenos {
+  margin: 15px 0; }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+  filter: invert(108%); }
+
+.ancho-modificado {
+  justify-content: center;
+  width: 600px;
+  margin: 1%;
+  /* padding: 2%; */ }
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  --bs-accordion-active-color: #fff;
+  --bs-accordion-active-bg: #c4e8c2;
+  width: 500px;
+  margin: auto; }
+
+.info-cliente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  font-family: cursive;
+  font-size: 13px; }
+
+.ofertas {
+  background-color: #6bbd99;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: cursive;
+  font-size: 12px; }
+
+.locales {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #064833;
+  margin-top: 2%;
+  list-style-type: none; }
+
+.locales p {
+  display: flex;
+  font-size: 12px;
+  padding: 2%;
+  margin: auto;
+  justify-content: center;
+  background-color: #9fd8ac; }
+
+.parrafito {
+  background-color: #6bbd99;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: 12px; }
+
+.local1 {
+  width: 350px;
+  margin: 15px; }
+
+.local2 {
+  width: 350px;
+  margin: 15px; }
+
+.local3 {
+  width: 350px;
+  margin: 15px; }
+
+.grilla-productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5px; }
+
+.grilla-productos div {
+  background-color: #c4e8c2;
+  border: 1px #6bbd99 solid; }
+
+.grilla-productos img {
+  padding: 5%;
+  width: 300px; }
+
+.lista-pie {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3%;
+  margin: auto;
+  background-color: #004643;
+  color: azure;
+  font-family: sans-serif;
+  font-size: 15px; }
+
+.pie {
+  background-color: #004643;
+  color: azure;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px; }
+
+/* Mwdia Query: INICIO */
+@media (max-width: 900px) {
+  header img {
+    width: 100px; }
+  h1 {
+    font-size: 25px;
+    color: #080808; }
+  a {
+    display: flex;
+    margin: 5px;
+    font-size: 12px; }
+  .foto-principal {
+    width: 375px;
+    display: flex;
+    align-items: center;
+    margin: auto; } }
+
+/* Media Query: CONOCENOS */
+@media (max-width: 900px) {
+  .grilla-conocenos {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .ancho-modificado {
+    width: 300px;
+    margin: 10%; }
+  .p-conoceno {
+    font-size: 12px; } }
+
+/* Media Query: LOCALES */
+@media (max-width: 900px) {
+  .local1 {
+    width: 280px;
+    margin: 15px; }
+  .local2 {
+    width: 280px;
+    margin: 15px; }
+  .local3 {
+    width: 280px;
+    margin: 15px; }
+  .locales p {
+    display: flex;
+    font-size: 12px;
+    /* background-color: #9fd8ac; */
+    padding: 0%;
+    margin: auto; } }
+
+/* Media Query: NUESTROS PRODUCTOS  */
+@media (max-width: 900px) {
+  .grilla-productos {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .grilla-productos img {
+    padding: 15%;
+    width: 250px; }
+  h1 {
+    font-size: 20px; } }
+
+/* Media Query: CONTACTOS */
+@media (max-width: 900px) {
+  .accordion {
+    width: 300px;
+    margin: auto; } }
